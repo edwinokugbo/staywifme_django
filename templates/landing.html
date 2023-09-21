@@ -1,0 +1,48 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+
+<div class="bg-slate-100">
+  <div
+    class="w-full lg:w-2/3 min-h-screen mx-auto px-4 md:px-8 py-4 grid grid-cols-1 lg:grid-cols-3 gap-2"
+  >
+    <div
+      class="border-[1px] border-slate-200 flex flex-col items-center gap-2 py-2"
+    >
+      <div class="w-full flex justify-between items-center px-4 pt-1">
+        <h1 class="text-lg font-bold py-2">Profile</h1>
+        <i class="bi-pencil-square"></i>
+      </div>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMyYA9xqPrjtAAxZplrVKMrTS5Jscct6yRKA&usqp=CAU"
+        alt="Profile"
+        class="border-[1px] border-slate-500 rounded-full shadow-md"
+      />
+      <h2 class="font-bold">Edwin Okugbo</h2>
+      <h2>0532991996</h2>
+      <h2>edwinokugbo@gmail.com</h2>
+      <div class="w-full border-[1px] border-slate-300 rounded-sm p-4 my-4">
+        <h2 class="text-lg font-bold mb-2">About</h2>
+        <p class="text-slate-600">
+          Edwin is a nice guy who loves to party and study hard. He loves to be
+          in the company of family and friends. He is ssionate with his job
+        </p>
+      </div>
+      <div
+        class="w-full border-[1px] border-slate-300 rounded-sm px-4 py-8 my-4"
+      >
+        <h2 class="text-lg font-bold mb-2">Hobbies</h2>
+        <p class="text-slate-600">
+          <li>Reading</li>
+          <li>Travelling</li>
+          <li>Movie Reviews</li>
+        </p>
+      </div>
+    </div>
+    <div class="border-[1px] border-slate-200 flex justify-center py-2">
+      <h1 class="text-lg font-bold">Activities</h1>
+    </div>
+    <div class="border-[1px] border-slate-200 flex justify-center py-2">
+      <h1 class="text-lg font-bold content-center">Find A Match</h1>
+    </div>
+  </div>
+</div>
+s {% endblock %}

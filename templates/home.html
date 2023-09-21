@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class=" w-full h-screen">
+      <div class="main-header w-full h-screen flex justify-center items-center">
+        <div class="px-8 py-16 rounded-3xl">
+          <h2 class="text-[1.5rem] md:text-[4.5rem] font-semibold text-white uppercase">
+            Are you looking to
+          </h2>
+          <h2 class="text-[1.5rem] md:text-[3.5rem] italic text-white uppercase">
+            Find the love of your life?
+          </h2>
+          <div class="my-4">
+            <Link href="/signin">
+              <button class="w-full md:w-1/2 md:block md:mx-auto bg-accent border-2 border-accent text-white py-2 px-4 rounded-2xl mt-4 cursor-pointer font-effect-fire">
+                Get Started
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endblock %}
